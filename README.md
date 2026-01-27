@@ -1,27 +1,35 @@
 # 📊 League Tracker - Rastreador de Estatísticas de League of Legends
 
-![Banner do Projeto](https://via.placeholder.com/1200x400/0a1428/c89b3c?text=LEAGUE+TRACKER+by+gabrielsrpp)
-
 ## ✨ Demonstração Visual
 
 ### 🎯 Tela Principal - Busca de Jogadores
-![Tela Principal - Busca](<img width="1001" height="409" alt="image" src="https://github.com/user-attachments/assets/3304e131-1bc9-44cc-a740-4214de24f161" />)
+
+<img width="1001" height="409" alt="image" src="https://github.com/user-attachments/assets/3304e131-1bc9-44cc-a740-4214de24f161" />
+
 *A interface de busca permite encontrar qualquer jogador de League of Legends usando o formato ID#tag.*
 
 ### 📊 Análise de Partidas
-![Análise de Partidas](<img width="1218" height="729" alt="image" src="https://github.com/user-attachments/assets/c46006e8-6411-4586-9005-ea5eaa8f7074" />)
+
+<img width="1218" height="729" alt="image" src="https://github.com/user-attachments/assets/c46006e8-6411-4586-9005-ea5eaa8f7074" />
+
 *Visualização detalhada das últimas partidas com KDA, resultado e informações do oponente.*
 
 ### 🏆 Sistema de Rank e LP
-![Sistema de Rank](<img width="328" height="695" alt="image" src="https://github.com/user-attachments/assets/45bfbc17-b299-44fe-9516-4431a3f8009b" />)
+
+<img width="328" height="695" alt="image" src="https://github.com/user-attachments/assets/45bfbc17-b299-44fe-9516-4431a3f8009b" />
+
 *Display completo do tier atual, pontos de liga (LP) e estatísticas da temporada 2026.*
 
 ### 🎮 Maestria de Campeões
-![Maestria de Campeões](<img width="849" height="680" alt="image" src="https://github.com/user-attachments/assets/3fa68d27-f9c8-47f4-a159-4faabd7fac95" />)
+
+<img width="849" height="680" alt="image" src="https://github.com/user-attachments/assets/3fa68d27-f9c8-47f4-a159-4faabd7fac95" />
+
 *Top 10 campeões por pontos de maestria com gráficos de desempenho detalhados.*
 
 ### 🎮 Campeões Jogados recentemente
-![Maestria de Campeões](<img width="805" height="693" alt="image" src="https://github.com/user-attachments/assets/f2d2e4cb-7064-41d3-8e29-3cba526e220b" />)
+
+<img width="805" height="693" alt="image" src="https://github.com/user-attachments/assets/f2d2e4cb-7064-41d3-8e29-3cba526e220b" />
+
 *Mostra os campeões que o jogador jogou recentemente.*
 
 ## 🚀 Sobre o Projeto
