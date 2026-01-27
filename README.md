@@ -1,73 +1,84 @@
-# React + TypeScript + Vite
+# 📊 League Tracker - Rastreador de Estatísticas de League of Legends
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Banner do Projeto](https://via.placeholder.com/1200x400/0a1428/c89b3c?text=LEAGUE+TRACKER+by+gabrielsrpp)
 
-Currently, two official plugins are available:
+## ✨ Demonstração Visual
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 🎯 Tela Principal - Busca de Jogadores
+![Tela Principal - Busca](<img width="1001" height="409" alt="image" src="https://github.com/user-attachments/assets/3304e131-1bc9-44cc-a740-4214de24f161" />)
+*A interface de busca permite encontrar qualquer jogador de League of Legends usando o formato ID#tag.*
 
-## React Compiler
+### 📊 Análise de Partidas
+![Análise de Partidas](<img width="1218" height="729" alt="image" src="https://github.com/user-attachments/assets/c46006e8-6411-4586-9005-ea5eaa8f7074" />)
+*Visualização detalhada das últimas partidas com KDA, resultado e informações do oponente.*
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+### 🏆 Sistema de Rank e LP
+![Sistema de Rank](<img width="328" height="695" alt="image" src="https://github.com/user-attachments/assets/45bfbc17-b299-44fe-9516-4431a3f8009b" />)
+*Display completo do tier atual, pontos de liga (LP) e estatísticas da temporada 2026.*
 
-## Expanding the ESLint configuration
+### 🎮 Maestria de Campeões
+![Maestria de Campeões](<img width="849" height="680" alt="image" src="https://github.com/user-attachments/assets/3fa68d27-f9c8-47f4-a159-4faabd7fac95" />)
+*Top 10 campeões por pontos de maestria com gráficos de desempenho detalhados.*
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### 🎮 Campeões Jogados recentemente
+![Maestria de Campeões](<img width="805" height="693" alt="image" src="https://github.com/user-attachments/assets/f2d2e4cb-7064-41d3-8e29-3cba526e220b" />)
+*Mostra os campeões que o jogador jogou recentemente.*
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🚀 Sobre o Projeto
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+O **League Tracker** é uma aplicação web moderna desenvolvida para fornecer estatísticas detalhadas e em tempo real de jogadores de League of Legends. Com uma interface , oferece uma experiência intuitiva para analisar desempenho, acompanhar progresso e comparar estatísticas.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## ⚡ Funcionalidades Principais
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### 🔍 **Busca Inteligente**
+- Pesquisa por jogadores usando o formato oficial `Nome#Tag`
+- Histórico de buscas recentes
+- Suporte a múltiplos servidores regionais
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### 📈 **Análise Detalhada**
+- Histórico das últimas 19 partidas
+- Estatísticas de KDA por campeão
+- Taxa de vitória (Win Rate) em diferentes modos
+- Filtros por tipo de jogo (Solo/Duo, Flex, ARAM)
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### 🏅 **Sistema de Rank**
+- Visualização do tier atual (Ferro até Desafiante)
+- Acompanhamento de pontos de Liga (LP)
+- Progresso da temporada atual
+- Comparativo de vitórias/derrotas
+
+### 🎯 **Maestria de Campeões**
+- Top 10 campeões por pontos de maestria
+- Nível de maestria e progresso
+- Estatísticas específicas por campeão
+- Gráficos de desempenho histórico
+
+## 🛠️ Tecnologias Utilizadas
+
+### Frontend
+- **React 18+** - Biblioteca para construção da interface
+- **TypeScript** - Tipagem estática para melhor desenvolvimento
+- **Vite** - Build tool extremamente rápida
+- **CSS Modules** - Estilização componentizada
+- **React Router** - Navegação entre páginas
+
+### Backend
+- **Node.js** - Runtime JavaScript server-side
+- **Express** - Framework web minimalista
+- **TypeScript** - Tipagem no backend
+- **Riot Games API** - Dados oficiais de League of Legends
+
+## ⚡ Como Executar o Projeto
+
+### Pré-requisitos
+- Node.js 18.0 ou superior
+- npm ou yarn instalado
+
+### Passo a Passo
+
+#### 1. Clone o repositório
+```bash
+git clone https://github.com/gabrielsrpp/League-Tracker.git
+cd League-Tracker
+npm run dev
+nodemon src/api/server.ts
