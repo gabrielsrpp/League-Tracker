@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+
+.mvp-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  pointer-events: none;
+}
+
+
+.mvp-container:has(+ .expanded-match-details) {
+  display: none !important;
+}
+
+
+[class*="rounded-b-none"] .mvp-container {
+  display: none !important;
+}
+
+.mvp-badge {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 30% 30%, #ffed4e, #ffd700 70%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Beaufort for LOL', serif;
+  font-weight: 900;
+  font-size: 11px;
+  color: #8a1c1c;
+  text-shadow: 
+    1px 1px 0px rgba(255, 255, 255, 0.6),
+    0px 0px 4px rgba(255, 255, 255, 0.8);
+  box-shadow: 
+    0 0 12px rgba(255, 215, 0, 0.9),
+    inset 0 0 8px rgba(255, 255, 255, 0.5),
+    inset 0 0 12px rgba(255, 255, 255, 0.3);
+  border: 2px solid;
+  border-color: #ffcc00 #ffaa00 #ff8800 #ffcc00;
+  overflow: hidden;
+}
+
+.mvp-reflection {
+  position: absolute;
+  top: 10%;
+  left: 15%;
+  width: 12px;
+  height: 8px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  transform: rotate(35deg);
+  filter: blur(0.5px);
+  z-index: 1;
+}
+
+
+.expanded-match .mvp-container {
+  position: absolute;
+  top: -12px;
+  right: 50%;
+  transform: translateX(50%);
+  z-index: 20;
+  display: block !important;
+}
+
+.expanded-match .mvp-badge {
+  width: 26px !important;
+  height: 26px !important;
+  font-size: 8px !important;
+  border-width: 1.5px !important;
+  box-shadow: 
+    0 0 8px rgba(255, 215, 0, 0.9),
+    inset 0 0 5px rgba(255, 255, 255, 0.5),
+    inset 0 0 8px rgba(255, 255, 255, 0.3) !important;
+}
+
+.expanded-match .mvp-reflection {
+  width: 7px !important;
+  height: 4px !important;
+  top: 10% !important;
+  left: 15% !important;
+  filter: blur(0.3px) !important;
+}
