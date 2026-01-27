@@ -88,5 +88,7 @@ O **League Tracker** é uma aplicação web moderna desenvolvida para fornecer e
 ```bash
 git clone https://github.com/gabrielsrpp/League-Tracker.git
 cd League-Tracker
+
+adicione uma API valida ao arquivo .env
 npm run dev
 nodemon src/api/server.ts
