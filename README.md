@@ -12,7 +12,10 @@
 
 <img width="1218" height="729" alt="image" src="https://github.com/user-attachments/assets/c46006e8-6411-4586-9005-ea5eaa8f7074" />
 
-*Visualização detalhada das últimas partidas com KDA, resultado e informações do oponente.*
+<img width="875" height="752" alt="image" src="https://github.com/user-attachments/assets/52efe05c-de05-4e3a-b7c1-69e308344812" />
+
+
+*Visualização detalhada das últimas partidas com KDA, resultado e informações do oponente e MVPs.*
 
 ### 🏆 Sistema de Rank e LP
 
